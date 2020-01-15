@@ -16,7 +16,6 @@ def cost(b_, k_, x_data, y_data):  # 代价函数
     diff_sum = 0
     for i in range(0, len(x_data)):
         diff_sum += (y_data[i] - (k_ * x_data[i] + b_)) ** 2  # (y - y估) ** 2
-
     return diff_sum / float(len(x_data)) / 2.0  # 1 / 2m
 
 
