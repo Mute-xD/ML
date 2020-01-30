@@ -1,3 +1,9 @@
+"""
+梯度下降法
+一元线性回归
+注意：
+    b, k应同时更新
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 

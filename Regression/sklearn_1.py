@@ -1,6 +1,13 @@
+"""
+sklearn实现
+一元线性回归
+标准方程法
+"""
 from sklearn.linear_model import LinearRegression
 import numpy as np
 import matplotlib.pyplot as plt
+
+
 data = np.genfromtxt("data.csv", delimiter=",")
 xData = data[:, 0]
 yData = data[:, 1]

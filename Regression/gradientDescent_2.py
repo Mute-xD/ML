@@ -1,3 +1,7 @@
+"""
+梯度下降法
+多元线性回归
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
