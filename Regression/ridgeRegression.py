@@ -1,6 +1,8 @@
 """
 岭回归
 可以抵消多重共线性
+抗“病态矩阵”
+限制系数平方和
 """
 import numpy as np
 import matplotlib.pyplot as plt
@@ -25,4 +27,4 @@ plt.plot(alphasTest, model.cv_values_.mean(axis=0))
 plt.plot(model.alpha_, min(model.cv_values_.mean(axis=0)), "ro")
 plt.show()
 
-print(model.predict(xData[2, np.newaxis]))
+print(model.predict(xData))
