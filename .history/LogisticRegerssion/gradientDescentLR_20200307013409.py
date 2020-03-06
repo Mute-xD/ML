@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import classification_report  # 评测指标
 import sklearn.preprocessing as prep
 
-scale = False  # 标准化开关  (True 有bug，但我懒得修) TODO :fix this
+scale = False  # 标准化开关  (True 有bug，但我懒得修) TODO
 
 data = np.genfromtxt('./LR-testSet.csv', delimiter=',')
 xData = data[:, :-1]

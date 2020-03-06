@@ -1,0 +1,20 @@
+  
+	for (int i= 0;
+00151FA8  mov         dword ptr [ebp-8],0  <--在 ebp-8 的位置上 赋值为0
+00151FAF  jmp         main+3Ah (0151FBAh)  <--跳到 0151FBA 位置
+		i++)
+00151FB1  mov         eax,dword ptr [ebp-8]  <--将 ebp-8 位置上的的数复制到 eax
+00151FB4  add         eax,1  <-- eax + 1
+00151FB7  mov         dword ptr [ebp-8],eax  <-- 将 eax位置上的数复制到ebp-8  
+		i < 3;
+00151FBA  cmp         dword ptr [ebp-8],3  <--将 ebp-8 和3比较
+00151FBE  jge         main+49h (0151FC9h)  <--若值为真跳转到0151FC9
+	{
+		int test = 100;
+00151FC0  mov         dword ptr [ebp-14h],64h  <-- 将64h(即100)复制到ebp-14h
+	}
+00151FC7  jmp         main+31h (0151FB1h)  <-- 跳转到0151FB1
+	
+	return 0;
+00151FC9  xor         eax,eax  <--程序执行结束
+}
