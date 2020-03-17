@@ -1,1 +1,8 @@
 /.history
+.idea/$CACHE_FILE$
+.idea/.gitignore
+.idea/ML.iml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
