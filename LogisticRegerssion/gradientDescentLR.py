@@ -2,10 +2,10 @@
 
 """
 
-import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.metrics import classification_report  # 评测指标
+import numpy as np
 import sklearn.preprocessing as prep
+from sklearn.metrics import classification_report  # 评测指标
 
 scale = False  # 标准化开关  (True 有bug，但我懒得修) TODO :fix this
 
