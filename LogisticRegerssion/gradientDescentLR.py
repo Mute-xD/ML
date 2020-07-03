@@ -7,7 +7,7 @@ import numpy as np
 import sklearn.preprocessing as prep
 from sklearn.metrics import classification_report  # 评测指标
 
-scale = False  # 标准化开关  (True 有bug，但我懒得修) TODO :fix this
+scale = True  # 标准化开关
 
 data = np.genfromtxt('./LR-testSet.csv', delimiter=',')
 xData = data[:, :-1]
@@ -79,6 +79,9 @@ if not scale:
     yTest = (-ws[0] - xTest * ws[1]) / ws[2]  # w0 + x1w1 +x2w2 = 0
     plt.plot(xTest, yTest, 'k')
     plt.show()
+
+if scale:
+    pass
 
 
 x = np.linspace(0, 10000, 201)
