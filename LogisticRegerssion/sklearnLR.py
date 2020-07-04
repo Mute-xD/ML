@@ -34,7 +34,7 @@ plot()
 plt.show()
 
 if scale:
-    xData = preprocessing.scale(xData)
+    xData = preprocessing.scale(xData)  # 标准正态化
 
 lr = linear_model.LogisticRegression()
 lr.fit(xData, yData)
