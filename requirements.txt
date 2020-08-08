@@ -1,7 +1,9 @@
 ipython
-matplotlib
+scipy
 numpy
+matplotlib
 pandas
-pygal(pip)
 scikit-learn
+pygal(pip)
 seaborn
+graphviz (用于决策树画图, conda 还得安一个python-graphviz)
