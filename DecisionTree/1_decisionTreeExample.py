@@ -1,3 +1,11 @@
+"""
+
+决策树
+    优点：计算复杂度不高，输出结果易于理解，对中间值的缺失不敏感，可以处理不相关特征数据
+    缺点：可能会产生过度匹配问题
+    适用数据类型：数值型和标称型
+
+"""
 from sklearn.feature_extraction import DictVectorizer
 from sklearn import tree
 from sklearn import preprocessing

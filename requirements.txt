@@ -1,9 +1,13 @@
 ipython
 scipy
-numpy
-matplotlib
-pandas
-scikit-learn
+numpy~=1.18.5
+matplotlib~=3.2.2
+pandas~=1.0.5
+scikit-learn~=0.23.1
 pygal(pip)
-seaborn
-graphviz (用于决策树画图, conda 还得安一个python-graphviz)
+seaborn~=0.10.1
+graphviz (决策树画图, conda 还得安一个python-graphviz)
+mlxtend (Stacking算法, pip)
+
+graphviz~=2.38
+mlxtend~=0.17.3
