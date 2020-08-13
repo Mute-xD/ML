@@ -9,3 +9,4 @@
 * DecisionTree       决策树
 * EnsembleLearning   集成学习
 * Bayes              贝叶斯
+* ClusterAnalysis    聚类分析
