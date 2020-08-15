@@ -10,3 +10,5 @@
 * EnsembleLearning   集成学习
 * Bayes              贝叶斯
 * ClusterAnalysis    聚类分析
+* SVM                支持向量机
+* PCA                主成分分析
