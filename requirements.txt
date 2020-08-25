@@ -1,13 +1,16 @@
-ipython
-scipy
-numpy~=1.18.5
-matplotlib~=3.2.2
-pandas~=1.0.5
-scikit-learn~=0.23.1
+ipython~=
+numpy 建议用conda装自带mkl
+scipy~=
+matplotlib~=
+pandas~=
+scikit-learn~=
 pygal(pip，还需要lxml)
-seaborn~=0.10.1
+seaborn~=
 graphviz (决策树画图, 用conda 还得安一个python-graphviz)
 mlxtend (Stacking算法, pip)
 requests (http请求)
-graphviz~=2.38
-mlxtend~=0.17.3
+graphviz~=
+mlxtend~=
+ipykernel 建议用conda装
+scikit-opt~=
+sympy~=

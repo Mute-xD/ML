@@ -12,3 +12,4 @@
 * ClusterAnalysis    聚类分析
 * SVM                支持向量机
 * PCA                主成分分析
+* AddOn              一些其他的杂项
